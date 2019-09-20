@@ -43,6 +43,9 @@ if __name__ == "__main__":
     average_score = average(score_input_list)
 
 
-    print(f'{last_name.capitalize()}' + ", " + f'{first_name.capitalize()}' + ": Average Score is " + f'{average_score}')
+    print(f'{last_name.capitalize()}' + ", " + f'{first_name.capitalize()}' + ": Average Score is {0:0.2f}".format(average_score))
+    # score_input_list = [91.1, 86.6, 80.5]
+    # average_score = average(score_input_list)
+    # print("Average: {:0.2f}".format(average_score))
 
 
